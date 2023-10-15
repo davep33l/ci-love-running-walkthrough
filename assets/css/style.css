@@ -28,7 +28,7 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px #3a3a3a; /* horizontal offset, vertical offset, blur, color*/
 }
 
 header a {
@@ -47,6 +47,26 @@ h1 {
     font-size: 110%;
     letter-spacing: 4px;
     list-style-type: none;
+}
+
+#menu li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/* Navbar styles and with dropdown toggle */
+
+nav {
+    position: absolute; /* takes out of notmal flow of the page structure */
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
 }
 
 
