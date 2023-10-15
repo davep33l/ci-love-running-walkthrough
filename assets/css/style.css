@@ -228,6 +228,15 @@ hr {
     color: #3a3a3a;
 }
 
+/* Media queries for tablets and larger (576x and up) */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+
+}
+
 
 /* Media queries for tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -288,6 +297,12 @@ hr {
         align-self: flex-end;
     }
 
+    /* Gallery */
+    #photos {
+        column-count: 3;
+        column-gap: 0;
+    }
+
 }
 
 @media screen and (min-width: 992px) {
@@ -322,5 +337,11 @@ hr {
 
     #benefits-physical>div {
         align-self: flex-end;
+    }
+
+    /* Gallery */
+    #photos {
+        column-count: 4;
+        column-gap: 0;
     }
 }
