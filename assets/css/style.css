@@ -202,6 +202,17 @@ hr {
     color: #fafafa;
 }
 
+/* Gallery Page */
+#photos {
+    line-height: 0;
+}
+
+#photos img {
+    width: 100%;
+    line-height: 1em;
+}
+
+
 /* Footer Styles */
 #social-networks {
     text-align: center;
