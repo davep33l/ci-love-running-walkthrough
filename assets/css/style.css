@@ -212,6 +212,13 @@ hr {
     line-height: 1em;
 }
 
+/* Signup page */
+
+
+#signup-form >h2 {
+    margin-top: 20px;
+}
+
 
 /* Footer Styles */
 #social-networks {
