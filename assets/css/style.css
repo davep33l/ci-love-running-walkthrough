@@ -99,10 +99,6 @@ main {
 }
 
 /* Footer Styles */
-footer {
-    background-color: orange;
-}
-
 #social-networks {
     text-align: center;
     padding: 20px 0;
@@ -111,7 +107,7 @@ footer {
     list-style-type: none;
 }
 
-#social-networks i {
+#social-networks i {    
     font-size: 160%;
     padding: 5%;
     color: #3a3a3a
