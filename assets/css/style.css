@@ -28,7 +28,8 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a; /* horizontal offset, vertical offset, blur, color*/
+    box-shadow: 0 2px 2px #3a3a3a;
+    /* horizontal offset, vertical offset, blur, color*/
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -63,7 +64,8 @@ h1 {
 /* Navbar styles and with dropdown toggle */
 
 nav {
-    position: absolute; /* takes out of notmal flow of the page structure */
+    position: absolute;
+    /* takes out of notmal flow of the page structure */
     background-color: #ffffff;
     width: 100%;
     left: 0;
@@ -97,7 +99,7 @@ main {
 }
 
 /* Footer Styles */
-footer { 
+footer {
     background-color: orange;
 }
 
@@ -117,7 +119,7 @@ footer {
         display: flex;
     }
 
-    #menu li{
+    #menu li {
         padding-left: 1rem;
     }
 
@@ -134,19 +136,13 @@ footer {
     main {
         margin-top: 79px;
     }
-    
+
 }
 
+@media screen and (min-width: 992px) {
 
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
+}
